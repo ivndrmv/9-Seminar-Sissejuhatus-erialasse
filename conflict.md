@@ -1,1 +1,1 @@
-kirjutasin paar laused omal valikul. Lalalalala 123 kirjutan midagi.
+olen muutnud tapselt uhe lause. Lalalalala 123 kirjutan midagi.
