@@ -1,1 +1,1 @@
-kirjutasin paar laused omal valikul. Lalalalala 123 kirjutan midagi.
+siin on teistsugune lause. Lalalalala 123 kirjutan midagi.
