@@ -1,0 +1,157 @@
+
+body {
+    background-color: rgb(215, 214, 218);
+    background-image: repeating-linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.12) 0px,
+        rgba(255, 255, 255, 0.12) 2px,
+        transparent 2px,
+        transparent 8px
+    );
+    margin: 40px;
+    color: rgb(60, 60, 65);
+}
+
+.Peanimetus {
+    color: rgb(60, 60, 65);
+    font-size: 65px;
+    text-align: left;
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.peamenyy a {
+    color: rgb(60, 60, 65);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.sotsialmeedia a,
+.sotsiaalmeedia a {
+    color: rgb(60, 60, 65);
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(60, 60, 65);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.sotsialmeedia,
+.sotsiaalmeedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    max-width: none;
+    margin: 18px 0 0;
+    align-items: flex-start;
+}
+
+.vasak {
+    flex: 1.2;
+    min-width: 0;
+    position: relative;
+}
+
+.parem {
+    flex: 1;
+    min-width: 0;
+    position: relative;
+}
+
+.vasak img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.parem img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.vasak h2,
+.parem h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.graafik {
+    text-align: center;
+}
+
+.graafik h3 {
+    font-size: 32px;
+}
+
+.graafik p {
+    font-size: 24px;
+}
+
+.parem h2 {
+    margin-top: 0;
+}
+
+
+/* Hinnakiri leht */
+
+.peanimetus {
+    font-family: 'Great Vibes', cursive;
+    font-size: 65px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: rgb(60, 60, 65);
+}
+
+.tagasi {
+    display: inline-block;
+    color: rgb(60, 60, 65);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(60, 60, 65);
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+
+table {
+    width: 80%;
+    max-width: 900px;
+    border-collapse: collapse;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+th, td {
+    border: 1px solid rgb(160, 160, 165);
+    padding: 18px 25px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
